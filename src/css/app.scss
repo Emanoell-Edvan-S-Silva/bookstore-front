@@ -1,0 +1,35 @@
+@import './helpers.scss';
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('assets/fonts/Montserrat-VariableFont_wght.ttf');
+}
+
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 0.4rem;
+  height: 0.4rem;
+}
+
+::-webkit-scrollbar-track {
+  padding-left: 1px;
+  padding-right: 1px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: $primary;
+  border-radius: 8px;
+}
+
+.body--dark ::-webkit-scrollbar-track {
+  background-color: #121212 !important;
+}
+
+.q-field__label {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  color: black;
+}
