@@ -2,6 +2,13 @@
 
 website for a bookstore completely made using vue and quasar
 
+## Login
+```
+username: admin
+#
+password: 1234
+```
+
 ## Install the dependencies
 ```bash
 yarn
