@@ -1,6 +1,6 @@
-# Quasar App (quasar-test)
+# BookStore front (Quasar)
 
-A Quasar Project
+website for a bookstore completely made using vue and quasar
 
 ## Install the dependencies
 ```bash
